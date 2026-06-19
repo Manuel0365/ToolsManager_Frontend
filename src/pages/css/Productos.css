@@ -1,0 +1,15 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+  }
+  
+  .table-responsive {
+    overflow-y: auto;
+    height: 100%; /* Permite que la tabla ocupe toda la altura restante */
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
