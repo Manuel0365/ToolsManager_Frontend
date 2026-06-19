@@ -179,9 +179,9 @@ const Home = () => {
                 <div key={p.name} className="stock-row">
                   <div>
                     <p className="stock-name">{p.name}</p>
-                    <p className="stock-min">Mínimo: {p.min} uds</p>
+                    <p className="stock-min">Mínimo: {p.min} unidades</p>
                   </div>
-                  <span className="badge-danger">{p.stock} uds</span>
+                  <span className="badge-danger">{p.stock} unidades</span>
                 </div>
               ))}
             </div>

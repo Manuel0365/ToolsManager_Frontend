@@ -75,7 +75,7 @@ const Productos = () => {
                   <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                     {p.estado === 'low' && <FiAlertTriangle size={13} color="#dc2626" />}
                     <span style={{ color: p.estado === 'low' ? '#dc2626' : '#374151', fontWeight: p.estado === 'low' ? 600 : 400 }}>
-                      {p.stock} uds
+                      {p.stock} unidades
                     </span>
                   </div>
                 </td>
